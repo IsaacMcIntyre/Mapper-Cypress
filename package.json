@@ -1,0 +1,23 @@
+{
+  "name": "cypress-dependencies",
+  "version": "1.0.0",
+  "description": "Cypress and it's dependencies for running E2E tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --env FRONTEND_LINK=$FRONTEND_URL --headless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacMcIntyre/Cypress-Dependencies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaacMcIntyre/Cypress-Dependencies/issues"
+  },
+  "homepage": "https://github.com/IsaacMcIntyre/Cypress-Dependencies#readme",
+  "devDependencies": {
+    "cypress": "^4.4.1"
+  },
+  "dependencies": {}
+}

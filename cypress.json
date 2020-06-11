@@ -1,0 +1,8 @@
+{  
+  "video": false,
+  "viewportWidth": 1000,
+  "viewportHeight": 660,
+  "env": {
+    "CYPRESS_BASE_URL": "http://localhost:3000"
+  }
+}
